@@ -1,0 +1,19 @@
+# 输出
+out/
+*.pdf
+
+# 字体不入库（版权），使用者自备
+*.ttf
+*.ttc
+*.otf
+
+# 个人/敏感内容
+personal/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 保留示例生成的预览图（白名单）
+!examples/preview.png
